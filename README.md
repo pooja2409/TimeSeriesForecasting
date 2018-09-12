@@ -34,7 +34,8 @@ then at each layer you're sorting lists, each of length at most n, whose lengths
 which can't take more than O(‖x‖0logn) time.
 Multiplying by K trees and d layers per tree gives you the original O(Kd‖x‖0logn) time complexity.
 The most time consuming part of the tree learning algorithm is getting the data in sorted order.
-This makes the time complexity of learning each tree O(n log n).
+This makes the time complexity of learning each tree O(n log n).<br />
+<br />
 <br />
 Qn4: If you had more time, what improvements would you make, and in what order of priority?<br />
 If given more time I would have used *Multivariate LSTM* and Time-Series-ARIMA-XGBOOST-RNN
